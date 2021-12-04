@@ -1,0 +1,16 @@
+gamemoderun ""
+inxi -Fxs
+uname -r 
+sudo apt-get autoclean
+$ sudo apt -clean
+sudo apt-get update && sudo apt-get dist-upgrade
+sudo synaptic
+tar -xzf (имя архива) распаковка через консоль
+
+sudo apt-get update   
+sudo apt-get install -f
+sudo apt-get upgrade
+sudo apt-get dist-upgrade
+
+netstat -ltnp | grep :порт
+sudo kill -9 процесс

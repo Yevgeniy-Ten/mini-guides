@@ -1,0 +1,66 @@
+@import "../../css/variables";
+
+.todo-add {
+  background-color: $purple;
+  position: fixed;
+  left: -100%;
+  opacity: 0;
+  visibility: hidden;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 500;
+  transition: 0.3s;
+
+  &.active {
+    visibility: visible;
+    opacity: 1;
+    left: 0;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+  }
+
+  &__body {
+    &-header {
+      padding: 15px 0;
+
+      img {
+        width: 90px;
+        height: 90px;
+        object-fit: cover;
+        border-radius: 100px;
+        overflow: hidden;
+      }
+    }
+  }
+
+  &__form {
+    margin-top: 22px;
+  }
+
+  &__btn {
+    cursor: pointer;
+
+    &--return {
+      width: 60px;
+      height: 30px;
+      background: url("./left-arrow.svg") no-repeat center/contain;
+      transition: 0.3s;
+      border-radius: 20px;
+      border: 1px solid transparent;
+
+      &:hover {
+        border: 1px solid $light;
+      }
+
+      &:active {
+        transform: scale(0.95);
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+mkdir -p projects/my_first/dir1

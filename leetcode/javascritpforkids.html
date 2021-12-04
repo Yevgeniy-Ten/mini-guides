@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const slovo = "javascript is awesome";
+        let hackslovo = "";
+        for (let i = 0; i < slovo.length; i++) {
+            if (slovo[i] === "i") {
+                hackslovo += 1;
+            } else if (slovo[i] === "a") {
+                hackslovo += 4;
+            } else if (slovo[i] === "e") {
+                hackslovo += 3;
+            } else {
+                hackslovo += slovo[i];
+            }
+        }
+        console.log(hackslovo);
+    </script>
+</body>
+
+</html>

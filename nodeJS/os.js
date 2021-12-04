@@ -1,0 +1,8 @@
+const os = require("os")
+console.log("OS",os.platform())
+console.log("Процессор",os.arch())
+console.log("Процессор инфо",os.cpus())
+console.log("Свободная память",os.freemem())
+console.log("Всего памяти",os.totalmem())
+console.log(os.homedir(),"Домашняя директория")
+console.log(os.uptime(),"Времени")

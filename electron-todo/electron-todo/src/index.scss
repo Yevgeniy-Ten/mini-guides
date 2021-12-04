@@ -1,0 +1,49 @@
+@import "css/variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+input:focus,
+button:focus,
+textarea:focus {
+
+  outline: none;
+}
+
+a, button {
+  color: inherit;
+}
+
+body {
+  font-size: 24px;
+  font-family: $font-family;
+  color: $light;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.add {
+  background-color: $blue;
+  border: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  color: $light;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color .3s;
+
+  &:hover {
+    background-color: darken($blue, 20);
+  }
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+$light: #ffffff;
+$purple: #46529D;
+$blue: #44BBEE;
+$gray: #9699AA;
+$dark: #030303;
+$font-family: 'Itim', cursive;
+$danger: #DF3E55;
+$green: #50E3A4;
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+  padding: 0 10px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex.center {
+  align-items: center;
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}

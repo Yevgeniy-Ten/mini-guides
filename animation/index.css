@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    cursor: cell;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(1, 1, 1);
+}
+
+.pulse {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    transform: scale(0);
+    opacity: 0;
+    z-index: 1000;
+}
+
+.pulse.active {
+    transition: 0.3s ease;
+    transform: scale(1.6);
+    opacity: 1;
+    background: rgba(255, 255, 255, 1);
+}
+
+.beauty-show {
+    animation: beauty-show 0.7s ease-out forwards;
+}
+
+@keyframes beauty-show {
+    from {
+        background-color: rgba(52, 52, 52, 0);
+        transform: translateY(-90%);
+    }
+    to {
+        background-color: rgba(1, 1, 1, 1);
+        transform: translateY(0);
+    }
+}

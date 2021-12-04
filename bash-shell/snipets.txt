@@ -1,0 +1,72 @@
+{
+  "breakpoints": {
+    "prefix": "mds",
+    "body": "@include dekstop{} @include xs-dekstop{} @include tablet-rotate{}  @include tablet{}  @include tel{}",
+    "description": "breakponts"
+  },
+  "center": {
+    "prefix": "center",
+    "body": "display:flex; align-items:center; justify-content:center;",
+    "description": "center flex"
+  },
+  "margintop": {
+    "prefix": "mmt",
+    "body": "margin: $0px 0 0 0;",
+    "description": "margintop"
+  },
+  "marginright": {
+    "prefix": "mmr",
+    "body": "margin: 0 $0px 0 0;",
+    "description": "margintop"
+  },
+  "marginbottom": {
+    "prefix": "mmb",
+    "body": "margin: 0 0 $0px 0;",
+    "description": "marginbottom"
+  },
+  "marginleft": {
+    "prefix": "mml",
+    "body": "margin: 0 0 0 $0px;",
+    "description": "marginleft"
+  },
+  "margintopbottom": {
+    "prefix": "mmm",
+    "body": "margin: $0px 0;",
+    "description": "margintop and bottom"
+  },
+  "padding top botoom": {
+    "prefix": "ptb",
+    "body": "padding: $0px 0;",
+    "description": "padding top bottom"
+  },
+  "paddimg left right": {
+    "prefix": "plr",
+    "body": "padding: 0 $0px;",
+    "description": "padding left right"
+  },
+  "grid-cols": {
+    "prefix": "grid-cols",
+    "body": "display:grid; grid-template-columns: repeat($0, 1fr); grid-gap:0;",
+    "description": "grid-snipet"
+  },
+  "paddimg left": {
+    "prefix": "ppl",
+    "body": "padding: 0 0 0 $0px;",
+    "description": "padding left "
+  },
+  "paddimg top": {
+    "prefix": "ppt",
+    "body": "padding:$0px  0 0 0 ;",
+    "description": "padding left "
+  },
+  "paddimg bottom": {
+    "prefix": "ppb",
+    "body": "padding: 0 0  $0px 0 ;",
+    "description": "padding left "
+  },
+  "paddimg right": {
+    "prefix": "ppr",
+    "body": "padding: 0 $0px 0 0 ;",
+    "description": "padding left "
+  }
+}

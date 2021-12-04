@@ -1,0 +1,24 @@
+.header {
+  background: url("./mountains.jpg") no-repeat center / cover;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    background: rgba(104, 141, 238, 0.2);
+  }
+
+  &__body {
+    z-index: 6;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 222px;
+    padding: 10px 0;
+  }
+}

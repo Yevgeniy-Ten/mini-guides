@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0eab506b-8d0e-4a56-95b2-488e743c8d22" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/react-guides/src/assets/helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-guides/src/hooks/HooksApp.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-guides/src/hooks/useFileInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-guides/src/hooks/useForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-guides/src/redux-saga/axiosSaga.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-guides/src/redux-saga/sagaReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-guides/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-guides/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-guides/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-guides/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-guides/src/redux-saga/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-guides/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-guides/src/redux-saga/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-guides/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-guides/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-guides/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-guides/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-guides/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-guides/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-guides/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-guides/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-guides/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/react-guides/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/react-guides" />
+  </component>
+  <component name="ProjectId" id="1oPri1F9dKXt7aH39Lcjb7dO1Gg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../STUDY/homework_85_yevgeniy_ten" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0eab506b-8d0e-4a56-95b2-488e743c8d22" name="Default Changelist" comment="" />
+      <created>1613199197715</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613199197715</updated>
+      <workItem from="1613199201511" duration="452000" />
+      <workItem from="1613199665499" duration="16000" />
+      <workItem from="1613199752861" duration="120000" />
+      <workItem from="1613199922122" duration="228000" />
+      <workItem from="1613200191816" duration="1002000" />
+      <workItem from="1613205228403" duration="31000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

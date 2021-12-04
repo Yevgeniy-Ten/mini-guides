@@ -1,0 +1,82 @@
+@import "../../css/variables";
+
+.todos {
+  color: $gray;
+}
+
+.todo {
+  border-bottom: 2px solid $gray;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 8px 15px;
+  border-radius: 6px;
+  margin-bottom: 6px;
+
+  &.active {
+    background-color: lighten($green, 25%);
+  }
+
+  &__title {
+    color: $dark;
+  }
+
+  &__body {
+    display: flex;
+    align-items: center;
+  }
+
+  &__img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 8px;
+    background: url("./task.png") no-repeat center / cover;
+    transition: 0.3s;
+    cursor: pointer;
+
+    &:hover {
+      transform: rotate(360deg);
+    }
+  }
+
+  &__actions {
+    margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  &__btn {
+    width: 30px;
+    height: 30px;
+    background-color: $gray;
+    color: $light;
+    margin: 8px 0;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+
+    &--remove {
+      background-color: $danger;
+    }
+
+    &--check {
+      &:hover {
+        background-color: lighten($green, 15);
+      }
+
+      &.active {
+        background-color: $green;
+      }
+    }
+
+    input {
+      display: none;
+    }
+
+    &:hover {
+      border-radius: 10px;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+@import "../../css/variables";
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border-top: 3px solid $gray;
+  min-height: 70px;
+  color: $gray;
+  background-color: $light;
+  z-index: 100;
+
+  &__body {
+    padding: 10px 0;
+    position: relative;
+  }
+
+  &__btn {
+    position: absolute;
+    right: 27px;
+    top: -50%;
+  }
+
+  &__height {
+    min-height: 90px;
+  }
+}

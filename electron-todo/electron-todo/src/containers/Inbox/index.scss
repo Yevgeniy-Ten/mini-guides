@@ -1,0 +1,14 @@
+@import "../../css/variables";
+
+.inbox {
+  flex-grow: 1;
+  color: $gray;
+
+  &__header {
+    padding: 10px 0;
+  }
+
+  &__title {
+    font-size: 30px;
+  }
+}

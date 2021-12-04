@@ -1,0 +1,73 @@
+.card {
+    width: 300px;
+    height: 500px;
+    position: relative;
+    transform-style: preserve-3d;
+    perspective: 700px;
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    transition: 0.3s linear;
+}
+
+.card-bg {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+    display: none;
+}
+
+.card-bg.active {
+    display: block;
+}
+
+.card-front, .card-back {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 10px solid #7619AA;
+    transition: 0.7s;
+    backface-visibility: hidden;
+}
+
+.card-back {
+    background: url("./img/card-log.png") no-repeat center/ 60px 78px;
+    transform: rotateX(0deg) rotateY(180deg) rotateZ(0deg);
+}
+
+.card-front {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: boxShadow 5s ease-out alternate infinite;
+}
+
+.card-front--inner {
+    background: url("./img/card-inner.png") no-repeat center / contain;
+    height: 80%;
+    width: 85%;
+    animation: cardInner 4s ease-in alternate infinite;
+}
+
+@keyframes cardInner {
+    from {
+        transform: translate3d(0, 0, -80px);
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes boxShadow {
+    from {
+        box-shadow: inset 0 0 50px 1px rgba(245, 245, 245, 0.6);
+    }
+    to {
+        box-shadow: inset 0 0 40px 6px rgb(245, 245, 245);
+    }
+}
